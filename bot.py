@@ -11,8 +11,8 @@ load_dotenv()
 chatbot = ChatBot('FAQbot')
 trainer = ListTrainer(chatbot)
 
-# comando para limpar o banco de dados de treinamento
-# chatbot.storage.drop()
+# Limpa o banco de dados de treinamento
+chatbot.storage.drop()
 
 trainer.train(general_training)
 
@@ -31,7 +31,7 @@ def respond(message):
     question = message.text
     response = chatbot.get_response(question)
 
-    if float(response.confidence) >= 0.6:
+    if float(response.confidence) >= 0.2:
         bot.reply_to(message, str(response))
     else:
         bot.send_message(
