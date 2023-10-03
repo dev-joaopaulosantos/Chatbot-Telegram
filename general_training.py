@@ -1,3 +1,4 @@
+# Treinamento de testes, respostas somente de exemplo.
 general_training = [
     "como solicitar declaração?",
     "Entre em contato via email com o controle acadêmico",
