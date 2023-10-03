@@ -21,25 +21,6 @@ TELEGRAM_API_KEY = os.environ['TELEGRAM_API_KEY']
 
 bot = telebot.TeleBot(TELEGRAM_API_KEY)
 
-
-# @bot.message_handler(commands=["opcao1"])
-# def option1(message):
-#     bot.send_message(
-#         message.chat.id, "Para mais informações sobre curriculos, procurar o controle academico!")
-
-
-# @bot.message_handler(commands=["opcao2"])
-# def option2(message):
-#     bot.send_message(
-#         message.chat.id, "Para informações sobre como trancar o curso, procurar o controle academico!")
-
-
-# @bot.message_handler(commands=["opcao3"])
-# def option3(message):
-#     bot.send_message(
-#         message.chat.id, "Para mais informações sobre dispensa de matérias, procurar o controle academico!")
-
-
 # Função para verificar se a mensagem deve ser respondida pelo bot
 def verify(message):
     return True
