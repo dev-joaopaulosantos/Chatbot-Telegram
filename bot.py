@@ -12,7 +12,7 @@ chatbot = ChatBot('FAQbot')
 trainer = ListTrainer(chatbot)
 
 # Limpa o banco de dados de treinamento
-chatbot.storage.drop()
+# chatbot.storage.drop()
 
 trainer.train(general_training)
 

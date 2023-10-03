@@ -1,8 +1,6 @@
 # Treinamento de testes, respostas somente de exemplo.
 general_training = [
-    "como solicitar declaração?",
-    "Entre em contato via email com o controle acadêmico",
-    "saber data final do periodo",
+    "Saber data final do periodo",
     "Para saber a data final do periodo acesse o sistema SUAP",
     "telefone do protocolo ou email",
     "Para saber o telefone do protocolo acesse o sistema SUAP",
