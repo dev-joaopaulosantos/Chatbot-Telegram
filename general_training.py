@@ -25,3 +25,18 @@ conversation = [
     "comprovante de renovação de matricula",
     "Para solicitar comprovante de renovação de matricula acesse o sistema SUAP",
 ]
+
+teste = [
+    'Como está o tempo hoje?',
+    'O tempo hoje está nublado, com possibilidade de chuva à tarde.',
+    'Qual é a previsão do tempo?',
+    'O tempo hoje está nublado, com possibilidade de chuva à tarde.',
+    'Está chovendo ou fazendo sol?',
+    'O tempo hoje está nublado, com possibilidade de chuva à tarde.',
+    'Qual é a temperatura agora?',
+    'A temperatura agora é de 25 graus Celsius, com sensação térmica de 27.',
+    'Está frio ou calor?',
+    'A temperatura agora é de 25 graus Celsius, com sensação térmica de 27.',
+    'Quanto graus está fazendo?',
+    'A temperatura agora é de 25 graus Celsius, com sensação térmica de 27.'
+]

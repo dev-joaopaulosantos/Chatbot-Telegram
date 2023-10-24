@@ -1,12 +1,4 @@
-from dotenv import load_dotenv
-import os
 import json
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
-import telebot
-# from general_training import conversation
-
-load_dotenv()
 
 data = json.loads(open('training.json', 'r', encoding='utf-8').read())
 conv = []
@@ -17,7 +9,27 @@ for row in data:
         conv.append(row['answer'])
 
 
-chatbot = ChatBot('FAQbot')
+from dotenv import load_dotenv
+import os
+from chatterbot import ChatBot
+from chatterbot.trainers import ListTrainer
+import telebot
+
+load_dotenv()
+
+print(conv)
+
+
+chatbot = ChatBot(
+    'Chatbot',
+    logic_adapters=[
+        {
+            'import_path': 'chatterbot.logic.BestMatch',
+            'default_response': 'Ainda não sei responder esta pergunta!',
+        }
+    ]
+)
+
 trainer = ListTrainer(chatbot)
 
 # Limpa o banco de dados de treinamento
@@ -31,8 +43,6 @@ TELEGRAM_API_KEY = os.environ['TELEGRAM_API_KEY']
 bot = telebot.TeleBot(TELEGRAM_API_KEY)
 
 # Função para verificar se a mensagem deve ser respondida pelo bot
-
-
 def verify(message):
     return True
 
@@ -41,12 +51,9 @@ def verify(message):
 def respond(message):
     question = message.text
     response = chatbot.get_response(question)
+    bot.send_message(message.chat.id, str(response))
+    # bot.reply_to(message, response)
 
-    if float(response.confidence) >= 0.4:
-        bot.reply_to(message, str(response))
-    else:
-        bot.send_message(
-            message.chat.id, "Peço desculpas, no momento não tenho a resposta para sua pergunta.")
 
 
 # Iniciando a escuta de novas mensagens pelo bot
