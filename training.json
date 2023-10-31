@@ -1,7 +1,7 @@
 [
   {
-    "id": "1",
-    "main_category": "clima",
+    "id": 1,
+    "category": "clima",
     "questions": [
       "Como está o tempo hoje?",
       "Qual é a previsão do tempo?",
@@ -10,8 +10,8 @@
     "answer": "O tempo hoje está nublado, com possibilidade de chuva à tarde."
   },
   {
-    "id": "2",
-    "main_category": "temperatura",
+    "id": 2,
+    "category": "temperatura",
     "questions": [
       "Qual é a temperatura agora?",
       "Está frio ou calor?",

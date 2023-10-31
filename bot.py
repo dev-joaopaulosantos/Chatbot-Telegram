@@ -1,60 +1,56 @@
-import json
-
-data = json.loads(open('training.json', 'r', encoding='utf-8').read())
-conv = []
-
-for row in data:
-    for question in row['questions']:
-        conv.append(question)
-        conv.append(row['answer'])
-
-
 from dotenv import load_dotenv
 import os
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
+import json
 import telebot
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
 
 load_dotenv()
 
-print(conv)
+data = json.loads(open('training.json', 'r', encoding='utf-8').read())
+questions = []
+answers = {}
 
+for row in data:
+    for question in row['questions']:
+        questions.append(question)
+        answers[question] = row['answer']
 
-chatbot = ChatBot(
-    'Chatbot',
-    logic_adapters=[
-        {
-            'import_path': 'chatterbot.logic.BestMatch',
-            'default_response': 'Ainda não sei responder esta pergunta!',
-        }
-    ]
-)
+print(questions)
+print("= = = = = = = = = = = = = = = = = = = = = = = = = =")
+print(answers)
 
-trainer = ListTrainer(chatbot)
+bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
 
-# Limpa o banco de dados de treinamento
-# chatbot.storage.drop()
-
-trainer.train(conv)
-
-# Chave de API do Telegram
-TELEGRAM_API_KEY = os.environ['TELEGRAM_API_KEY']
-
-bot = telebot.TeleBot(TELEGRAM_API_KEY)
-
-# Função para verificar se a mensagem deve ser respondida pelo bot
 def verify(message):
-    return True
+    question = message.text
+    best_match = process.extractOne(question, questions)
+    if best_match[1] > 80:
+        return True
 
+def verify_main_menu(message):
+    question = message.text
+    best_match = process.extractOne(question, questions)
+    if best_match[1] <= 80:
+        return True
+
+@bot.message_handler(func=verify_main_menu)
+def main_menu(message):
+    text = """
+    Escolha uma opção para continuar (Clique no item):
+
+    /opcao1 Como solicitar declaração
+    /opcao2 Informações sobre bolsas
+    /opcao3 Informações sobre estágios
+
+Ou digite sobre o que você deseja se informar!"""
+    bot.reply_to(message, text)
 
 @bot.message_handler(func=verify)
 def respond(message):
     question = message.text
-    response = chatbot.get_response(question)
-    bot.send_message(message.chat.id, str(response))
-    # bot.reply_to(message, response)
+    best_match = process.extractOne(question, questions)
+    response = answers[best_match[0]]
+    bot.reply_to(message, str(response))
 
-
-
-# Iniciando a escuta de novas mensagens pelo bot
 bot.polling()
