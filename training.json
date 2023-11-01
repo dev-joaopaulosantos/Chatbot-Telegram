@@ -18,5 +18,17 @@
       "Quanto graus está fazendo?"
     ],
     "answer": "A temperatura agora é de 25 graus Celsius, com sensação térmica de 27."
+  },
+  {
+    "id": 3,
+    "category": "temperatura",
+    "questions": ["Pergunta suboption 3?"],
+    "answer": "Essa é a resposta da subopção 3"
+  },
+  {
+    "id": 4,
+    "category": "temperatura",
+    "questions": ["Pergunta suboption 4?"],
+    "answer": "Essa é a resposta da subopção 34"
   }
 ]
