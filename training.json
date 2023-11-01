@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "code": "OP01",
     "category": "clima",
     "questions": [
       "Como está o tempo hoje?",
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "code": "OP02",
     "category": "temperatura",
     "questions": [
       "Qual é a temperatura agora?",
@@ -21,12 +23,14 @@
   },
   {
     "id": 3,
+    "code": "OP03",
     "category": "temperatura",
     "questions": ["Pergunta suboption 3?"],
     "answer": "Essa é a resposta da subopção 3"
   },
   {
     "id": 4,
+    "code": "OP04",
     "category": "temperatura",
     "questions": ["Pergunta suboption 4?"],
     "answer": "Essa é a resposta da subopção 34"
