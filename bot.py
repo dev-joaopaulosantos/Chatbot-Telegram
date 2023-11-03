@@ -4,8 +4,8 @@ import telebot
 from fuzzywuzzy import process
 
 # Import the function from the other file
-from menu_handlers import menu_opcao1, menu_opcao2, main_menu
-from verifiers import verify, verify_main_menu
+from menu_handlers import submenu_01, submenu_02, menu
+from verifiers import verify, verify_menu
 from data_loader import load_data
 
 
@@ -14,35 +14,38 @@ questions, answers, code_answer, codes = load_data()
 
 
 load_dotenv()
-
-
 bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
 
 
 def handle_sub_option(message, option_code):
     response = code_answer[option_code]
-    bot.reply_to(message, str(response))
+    bot.send_message(message.chat.id, str(response))
 
 
 @bot.message_handler(commands=codes)
-def sub_menu(message):
+def submenu(message):
     option_code_str = message.text.split('/')[1]
     handle_sub_option(message, option_code_str)
 
 
+# @bot.message_handler(commands=['start'])
+# def handle_welcome(message):
+#     welcome(bot, message)
+
+
 @bot.message_handler(commands=['01'])
-def handle_menu_opcao1(message):
-    menu_opcao1(bot, message)
+def handle_submenu01(message):
+    submenu_01(bot, message)
 
 
 @bot.message_handler(commands=['02'])
-def handle_menu_opcao2(message):
-    menu_opcao2(bot, message)
+def handle_submenu02(message):
+    submenu_02(bot, message)
 
 
-@bot.message_handler(func=lambda message: verify_main_menu(message, questions))
-def handle_main_menu(message):
-    main_menu(bot, message)
+@bot.message_handler(func=lambda message: verify_menu(message, questions))
+def handle_menu(message):
+    menu(bot, message)
 
 
 @bot.message_handler(func=lambda message: verify(message, questions))
@@ -53,4 +56,4 @@ def respond(message):
     bot.reply_to(message, str(response))
 
 
-bot.polling()
+bot.polling() 

@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "code": "OP01",
     "category": "clima",
     "questions": [
@@ -11,7 +10,6 @@
     "answer": "O tempo hoje está nublado, com possibilidade de chuva à tarde."
   },
   {
-    "id": 2,
     "code": "OP02",
     "category": "temperatura",
     "questions": [
@@ -22,14 +20,12 @@
     "answer": "A temperatura agora é de 25 graus Celsius, com sensação térmica de 27."
   },
   {
-    "id": 3,
     "code": "OP03",
     "category": "temperatura",
     "questions": ["Pergunta suboption 3?"],
     "answer": "Essa é a resposta da subopção 3"
   },
   {
-    "id": 4,
     "code": "OP04",
     "category": "temperatura",
     "questions": ["Pergunta suboption 4?"],
