@@ -8,6 +8,7 @@ from menu_handlers import menu_opcao1, menu_opcao2, main_menu
 from verifiers import verify, verify_main_menu
 from data_loader import load_data
 
+
 # Load the data using the function from the other file
 questions, answers, code_answer, codes = load_data()
 
