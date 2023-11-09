@@ -1,10 +1,11 @@
 from dotenv import load_dotenv
 import os
 import telebot
-from fuzzywuzzy import process
+from thefuzz import fuzz
+from thefuzz import process
 
 # Import the function from the other file
-from menu_handlers import submenu_01, submenu_02, menu
+from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, menu
 from verifiers import verify, verify_menu
 from data_loader import load_data
 
@@ -28,11 +29,6 @@ def submenu(message):
     handle_sub_option(message, option_code_str)
 
 
-# @bot.message_handler(commands=['start'])
-# def handle_welcome(message):
-#     welcome(bot, message)
-
-
 @bot.message_handler(commands=['01'])
 def handle_submenu01(message):
     submenu_01(bot, message)
@@ -41,6 +37,16 @@ def handle_submenu01(message):
 @bot.message_handler(commands=['02'])
 def handle_submenu02(message):
     submenu_02(bot, message)
+
+
+@bot.message_handler(commands=['03'])
+def handle_submenu03(message):
+    submenu_03(bot, message)
+
+
+@bot.message_handler(commands=['04'])
+def handle_submenu04(message):
+    submenu_04(bot, message)
 
 
 @bot.message_handler(func=lambda message: verify_menu(message, questions))

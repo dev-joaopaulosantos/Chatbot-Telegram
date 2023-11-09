@@ -1,7 +1,7 @@
 # verifiers.py
 
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
+from thefuzz import fuzz
+from thefuzz import process
 
 def verify(message, questions):
     question = message.text
