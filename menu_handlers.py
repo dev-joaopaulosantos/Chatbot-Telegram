@@ -83,9 +83,9 @@ def submenu_05(bot, message):
     /E04 Coordenação de Saúde.
     /E05 Coordenação de Disciplina.
     /E06 Coordenação de Tecnologia da Informação.
-    /E07 Coordenação do Curso de Bacharelado em Administração.
-    /E08 Coordenação do Curso de Licenciatura em Ciências Biológicas.
-    /E09 Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas.
+    /E07 Coordenação do Curso de Administração.
+    /E08 Coordenação do Curso de Ciências Biológicas.
+    /E09 Coordenação do Curso de ADS.
     /E10 Coordenação do NAPNE.
     
 Para voltar clique em -> /menu
