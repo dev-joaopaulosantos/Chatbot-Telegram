@@ -8,10 +8,11 @@ def menu(bot, message):
     text = f"""
 {salutation}, {message.from_user.first_name}! *Escolha uma opção para continuar* (Clique no item):
 
-- /01 Setor de Saúde
-- /02 Programas Estudantis
-- /03 Processos Acadêmicos
-- /04 Sistema Unificado de Administração Pública (SUAP)
+- /01 Setor de Saúde.
+- /02 Programas Estudantis.
+- /03 Processos Acadêmicos.
+- /04 Sistema Unificado de Administração Pública (SUAP).
+- /05 Contatos da Administração.
 
 Ou digite sobre o que você deseja se informar!
 """
@@ -24,7 +25,7 @@ def submenu_01(bot, message):
 
     /A01 Sobre o setor de saúde.
     
-Para voltar, clique em /menu
+Para voltar clique em -> /menu
     """
     bot.send_message(message.chat.id, text, parse_mode='Markdown')
 
@@ -36,7 +37,7 @@ def submenu_02(bot, message):
     /B01 PIBIC - Programa de Bolsa de Iniciação Científica.
     /B02 Monitoria.
     
-Para voltar, clique em /menu
+Para voltar clique em -> /menu
     """
     bot.send_message(message.chat.id, text, parse_mode='Markdown')
 
@@ -51,7 +52,7 @@ def submenu_03(bot, message):
     /C04 Trancamento de curso.
     /C05 Reabertura de curso.
     
-Para voltar, clique em /menu
+Para voltar clique em -> /menu
     """
     bot.send_message(message.chat.id, text, parse_mode='Markdown')
 
@@ -59,12 +60,34 @@ Para voltar, clique em /menu
 def submenu_04(bot, message):
     text = """
     Você escolheu o tópico *SUAP*. selecione a opção desejada. (Clique no Item):
+    
     /D01 Declaração de vínculo.
     /D02 Histórico.
     /D03 Declaração de carga horária integralizada.
     /D04 Declaração de matrícula.
     /D05 Comprovante de dados acadêmicos.
     
-Para voltar, clique em /menu
+Para voltar clique em -> /menu
+    """
+    bot.send_message(message.chat.id, text, parse_mode='Markdown')
+
+
+
+def submenu_05(bot, message):
+    text = """
+    Você escolheu o tópico *Contatos da Administração*. selecione a opção desejada. (Clique no Item):
+    
+    /E01 Diretoria Geral.
+    /E02 Diretoria de Ensino.
+    /E03 Coordenação Pedagógica.
+    /E04 Coordenação de Saúde.
+    /E05 Coordenação de Disciplina.
+    /E06 Coordenação de Tecnologia da Informação.
+    /E07 Coordenação do Curso de Bacharelado em Administração.
+    /E08 Coordenação do Curso de Licenciatura em Ciências Biológicas.
+    /E09 Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas.
+    /E10 Coordenação do NAPNE.
+    
+Para voltar clique em -> /menu
     """
     bot.send_message(message.chat.id, text, parse_mode='Markdown')

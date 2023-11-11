@@ -5,7 +5,7 @@ from thefuzz import fuzz
 from thefuzz import process
 
 # Import the function from the other file
-from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, menu
+from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, menu
 from verifiers import verify, verify_menu
 from data_loader import load_data
 
@@ -20,6 +20,7 @@ bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
 
 def handle_sub_option(message, option_code):
     response = code_answer[option_code]
+    response += "\n\nPara voltar clique em -> /menu."
     bot.send_message(message.chat.id, str(response))
 
 
@@ -49,6 +50,11 @@ def handle_submenu04(message):
     submenu_04(bot, message)
 
 
+@bot.message_handler(commands=['05'])
+def handle_submenu05(message):
+    submenu_05(bot, message)
+
+
 @bot.message_handler(func=lambda message: verify_menu(message, questions))
 def handle_menu(message):
     menu(bot, message)
@@ -59,7 +65,8 @@ def respond(message):
     question = message.text
     best_match = process.extractOne(question, questions)
     response = answers[best_match[0]]
-    bot.reply_to(message, str(response))
+    response += "\n\nPara voltar clique em -> /menu."  # Adicionando texto padrão ao final da resposta
+    bot.reply_to(message, response)
 
 
 bot.polling() 

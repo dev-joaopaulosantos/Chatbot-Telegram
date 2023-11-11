@@ -1,34 +1,255 @@
 [
   {
-    "code": "OP01",
-    "category": "clima",
+    "code": "A01",
+    "questions": ["Array de perguntas 1"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "A02",
+    "questions": ["Array de perguntas 2"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "B01",
+    "questions": ["Array de perguntas 3"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "B02",
+    "questions": ["Array de perguntas 4"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "C01",
+    "questions": ["Array de perguntas 5"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "C02",
+    "questions": ["Array de perguntas 6"],
+    "answer": "Ainda não tenho uma resposta :("
+  },
+  {
+    "code": "D01",
     "questions": [
-      "Como está o tempo hoje?",
-      "Qual é a previsão do tempo?",
-      "Está chovendo ou fazendo sol?"
+      "Como obter declaração de vínculo?",
+      "Declaração de vínculo",
+      "Como ver minha declaração de vínculo?",
+      "Como baixar declaração de vínculo?",
+      "Ver declaração de vínculo online",
+      "Onde posso encontrar minha declaração de vínculo?",
+      "Instruções para obter declaração de vínculo",
+      "Como visualizar minha declaração de vínculo?",
+      "Quero saber sobre a declaração de vínculo",
+      "Preciso de orientações sobre a declaração de vínculo",
+      "O que fazer para ter acesso à declaração de vínculo?",
+      "Passos para conseguir a declaração de vínculo"
     ],
-    "answer": "O tempo hoje está nublado, com possibilidade de chuva à tarde."
+    "answer": "Para obter sua declaração de vínculo, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de Vínculo'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
-    "code": "OP02",
-    "category": "temperatura",
+    "code": "D02",
     "questions": [
-      "Qual é a temperatura agora?",
-      "Está frio ou calor?",
-      "Quanto graus está fazendo?"
+      "Como obter meu histórico Escolar?",
+      "histórico escolar",
+      "histórico",
+      "ver histórico",
+      "Como ver meu histórico?",
+      "Como baixar histórico?",
+      "Ver histórico online",
+      "Onde posso encontrar meu histórico escolar?",
+      "Quero acessar meu histórico acadêmico.",
+      "É possível visualizar o histórico de notas?",
+      "Preciso do meu registro de notas.",
+      "Como consigo uma cópia do meu histórico escolar?",
+      "O que devo fazer para obter meu histórico acadêmico?",
+      "Como faço para visualizar minhas notas?"
     ],
-    "answer": "A temperatura agora é de 25 graus Celsius, com sensação térmica de 27."
+    "answer": "Para obter seu histórico, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Histórico Parcial'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
-    "code": "OP03",
-    "category": "temperatura",
-    "questions": ["Pergunta suboption 3?"],
-    "answer": "Essa é a resposta da subopção 3"
+    "code": "D03",
+    "questions": [
+      "Como obter Declaração de carga horária integralizada?",
+      "Declaração de carga horária integralizada",
+      "Declaração de carga horária",
+      "ver declaração de carga horária integralizada",
+      "Como ver minha Declaração de carga horária?",
+      "Como baixar Declaração de carga horária?",
+      "Ver Declaração de carga horária online",
+      "Onde posso encontrar minha declaração de carga horária?",
+      "Quero acessar minha declaração de carga horária integralizada.",
+      "Preciso da minha declaração de carga horária",
+      "Como consigo uma cópia da minha Declaração de carga horária?",
+      "O que devo fazer para obter minha declaração de carga horária?",
+      "Como faço para visualizar minha declaração de carga horária?"
+    ],
+    "answer": "Para obter sua declaração de carga horária, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de carga horária integralizada'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
-    "code": "OP04",
-    "category": "temperatura",
-    "questions": ["Pergunta suboption 4?"],
-    "answer": "Essa é a resposta da subopção 4"
+    "code": "D04",
+    "questions": [
+      "Como obter declaração de matrícula?",
+      "Declaração de matrícula",
+      "ver declaração de matrícula",
+      "Como ver minha declaração de matrícula?",
+      "Como baixar declaração de matrícula?",
+      "Ver declaração de matrícula online",
+      "Onde posso encontrar minha declaração de matrícula?",
+      "Quero acessar minha declaração de matrícula.",
+      "Preciso da minha declaração de matrícula",
+      "Como consigo uma cópia da minha declaração de matrícula?",
+      "O que devo fazer para obter minha declaração de matrícula?",
+      "Como faço para visualizar minha declaração de matrícula?"
+    ],
+    "answer": "Para obter sua declaração de matrícula, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de matrícula'.\n\nVocê terá a opção de visualizar ou baixar o documento."
+  },
+  {
+    "code": "D05",
+    "questions": [
+      "Como obter comprovante de dados acadêmicos?",
+      "Comprovante de dados acadêmicos",
+      "ver comprovante de dados acadêmicos",
+      "Como ver meu comprovante de dados acadêmicos?",
+      "Como baixar comprovante de dados acadêmicos?",
+      "Ver comprovante de dados acadêmicos online",
+      "Onde posso encontrar meu comprovante de dados acadêmicos?",
+      "Quero acessar meu comprovante de dados acadêmicos.",
+      "Preciso do meu comprovante de dados acadêmicos",
+      "Como consigo uma cópia do meu comprovante de dados acadêmicos?",
+      "O que devo fazer para obter meu comprovante de dados acadêmicos?",
+      "Como faço para visualizar meu comprovante de dados acadêmicos?"
+    ],
+    "answer": "Para obter sua comprovante de dados acadêmicos, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Comprovante de dados acadêmicos'.\n\nVocê terá a opção de visualizar ou baixar o documento."
+  },
+  {
+    "code": "E01",
+    "questions": [
+      "Qual o contato do diretor geral?",
+      "Qual o contato do nonato?",
+      "Qual o email do diretor geral?",
+      "Qual o email do nonato?",
+      "Email do diretor geral",
+      "Email do Nonato"
+    ],
+    "answer": "Diretoria Geral do Campus Pedro II\n\nRaimundo Nonato Alves da Silva\nE-mail: dg.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E02",
+    "questions": [
+      "Qual o contato do diretor de ensino?",
+      "Qual o contato do William Melo?",
+      "Qual o email do diretor de ensino?",
+      "Qual o email do William Melo?",
+      "Email do diretor de ensino",
+      "Email do William Melo"
+    ],
+    "answer": "Diretoria de Ensino do Campus Pedro II\n\nWilliam de Souza Melo\nE-mail: dens.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E03",
+    "questions": [
+      "Qual o contato da Coordenação Pedagógica?",
+      "Qual o contato da Gerlandia Melo?",
+      "Qual o email da coordenadora pedagógica?",
+      "Qual o email da Gerlandia Melo?",
+      "Email do diretor de ensino",
+      "Email da Coordenação Pedagógica"
+    ],
+    "answer": "Coordenação Pedagógica\n\nGerlandia Maria Bezerra Melo\nE-mail: coped.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E04",
+    "questions": [
+      "Qual o contato da Coordenação de Saúde?",
+      "Qual o contato da Marcia Raquel Araújo?",
+      "Qual o email da Coordenação de Saúde?",
+      "Qual o email da Marcia Raquel Araújo?",
+      "Email do setor de saúde",
+      "Email da Coordenadora de saúde"
+    ],
+    "answer": "Coordenação de Saúde\n\nMarcia Raquel Araújo de Carvalho\nE-mail: cosau.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E05",
+    "questions": [
+      "Qual o contato da Coordenação de Disciplina?",
+      "Qual o contato da Naiana Teixeira?",
+      "Qual o email da Coordenação de Disciplina?",
+      "Qual o email da Naiana Teixeira?",
+      "Email da Coordenação de Disciplina",
+      "Email da Coordenadora de Disciplina"
+    ],
+    "answer": "Coordenação de Disciplina\n\nNaiana Teixeira Pereira de Carvalho\nE-mail: coordisc.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E06",
+    "questions": [
+      "Qual o contato da Coordenação de Tecnologia da Informação?",
+      "Qual o contato do Darlan Silva Mariano?",
+      "Qual o email da Coordenação de Tecnologia da Informação?",
+      "Qual o email do Darlan Silva Mariano?",
+      "Email da Coordenação de Tecnologia da Informação",
+      "Email do Coordenador de Tecnologia"
+    ],
+    "answer": "Coordenação de Tecnologia da Informação\n\nDarlan Silva Mariano\nE-mail: coti.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E07",
+    "questions": [
+      "Qual o contato da Coordenação do Curso de Administração?",
+      "Qual o contato do Coordenador do Curso de Administração?",
+      "Qual o contato do Clayton Robson Moreira?",
+      "Qual o email da Coordenação do Curso de Administração?",
+      "Qual o email do Clayton Robson Moreira?",
+      "Email da Coordenação do Curso de Administração",
+      "Email do Coordenador do Curso de Administração"
+    ],
+    "answer": "Coordenação do Curso de Bacharelado em Administração\n\nClayton Robson Moreira da Silva\nE-mail: adm.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E08",
+    "questions": [
+      "Qual o contato da Coordenação do Curso de Ciências Biológicas?",
+      "Qual o contato da Coordenação do Curso de Biologia?",
+      "Qual o contato da Coordenadora do Curso de Ciências Biológicas?",
+      "Qual o contato da Coordenadora do Curso de Biologia?",
+      "Qual o contato da Esterfania Araujo?",
+      "Qual o email da Coordenação do Curso de Ciências Biológicas?",
+      "Qual o email da Coordenação do Curso de Biologia?",
+      "Qual o email da Esterfania Araujo?",
+      "Email da Coordenação do Curso de Ciências Biológicas",
+      "Email da Coordenadora do Curso de Biologia"
+    ],
+    "answer": "Coordenação do Curso de Licenciatura em Ciências Biológicas\n\nEsterfania Araujo Barbosa Farias\nE-mail: cobio.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E09",
+    "questions": [
+      "Qual o contato da Coordenação do Curso de Análise e Desenvolvimento de Sistemas?",
+      "Qual o contato da Coordenação do Curso de ADS?",
+      "Qual o contato do Coordenador do Curso de Análise e Desenvolvimento de Sistemas?",
+      "Qual o contato do Coordenador do Curso de ADS?",
+      "Qual o contato do Paulo de Oliveira Filho?",
+      "Qual o email da Coordenação do Curso de Análise e Desenvolvimento de Sistemas?",
+      "Qual o email da Coordenação do Curso de ADS?",
+      "Qual o email do Paulo de Oliveira Filho?",
+      "Email da Coordenação do Curso de Análise e Desenvolvimento de Sistemas",
+      "Email da Coordenadora do Curso de ADS"
+    ],
+    "answer": "Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas\n\nPaulo de Oliveira Gomes Filho\nE-mail: cocads.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
+  },
+  {
+    "code": "E10",
+    "questions": [
+      "Qual o contato da Coordenação do NAPNE?",
+      "Qual o contato da Coordenadora do NAPNE?",
+      "Qual o contato da Marcia Rubia de Oliveira?",
+      "Qual o email da Coordenação do NAPNE?",
+      "Qual o email da Marcia Rubia de Oliveira?",
+      "Email da Coordenação do NAPNE",
+      "Email da Coordenadora do NAPNE"
+    ],
+    "answer": "Coordenação do NAPNE\n\nMarcia Rubia de Oliveira Lima\nE-mail: napne.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   }
 ]
