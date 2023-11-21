@@ -12,7 +12,8 @@ def menu(bot, message):
 - /02 Programas Estudantis.
 - /03 Processos Acadêmicos.
 - /04 Sistema Unificado de Administração Pública (SUAP).
-- /05 Contatos da Administração.
+- /05 Atividades Complementares.
+- /06 Contatos da Administração.
 
 Ou digite sobre o que você deseja se informar!
 """
@@ -36,6 +37,7 @@ def submenu_02(bot, message):
 
     /B01 PIBIC - Programa de Bolsa de Iniciação Científica.
     /B02 Monitoria.
+    /B03 Tipos Monitoria.
     
 Para voltar clique em -> /menu
     """
@@ -75,18 +77,31 @@ Para voltar clique em -> /menu
 
 def submenu_05(bot, message):
     text = """
+    Você escolheu o tópico *Atividades Complementares*. selecione a opção desejada. (Clique no Item):
+    
+    /E01 Para que servem as atividades complementares.
+    /E02 Quantidades de horas obrigatórias.
+    /E03 O que são consideradas atividades complementares.
+    
+Para voltar clique em -> /menu
+    """
+    bot.send_message(message.chat.id, text, parse_mode='Markdown')
+
+
+def submenu_06(bot, message):
+    text = """
     Você escolheu o tópico *Contatos da Administração*. selecione a opção desejada. (Clique no Item):
     
-    /E01 Diretoria Geral.
-    /E02 Diretoria de Ensino.
-    /E03 Coordenação Pedagógica.
-    /E04 Coordenação de Saúde.
-    /E05 Coordenação de Disciplina.
-    /E06 Coordenação de Tecnologia da Informação.
-    /E07 Coordenação do Curso de Administração.
-    /E08 Coordenação do Curso de Ciências Biológicas.
-    /E09 Coordenação do Curso de ADS.
-    /E10 Coordenação do NAPNE.
+    /F01 Diretoria Geral.
+    /F02 Diretoria de Ensino.
+    /F03 Coordenação Pedagógica.
+    /F04 Coordenação de Saúde.
+    /F05 Coordenação de Disciplina.
+    /F06 Coordenação de Tecnologia da Informação.
+    /F07 Coordenação do Curso de Administração.
+    /F08 Coordenação do Curso de Ciências Biológicas.
+    /F09 Coordenação do Curso de ADS.
+    /F10 Coordenação do NAPNE.
     
 Para voltar clique em -> /menu
     """

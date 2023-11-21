@@ -5,7 +5,7 @@ from thefuzz import fuzz
 from thefuzz import process
 
 # Import the function from the other file
-from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, menu
+from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
 from verifiers import verify, verify_menu
 from data_loader import load_data
 
@@ -53,6 +53,10 @@ def handle_submenu04(message):
 @bot.message_handler(commands=['05'])
 def handle_submenu05(message):
     submenu_05(bot, message)
+
+@bot.message_handler(commands=['06'])
+def handle_submenu06(message):
+    submenu_06(bot, message)
 
 
 @bot.message_handler(func=lambda message: verify_menu(message, questions))

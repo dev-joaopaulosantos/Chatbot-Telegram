@@ -1,32 +1,46 @@
 [
   {
     "code": "A01",
-    "questions": ["Array de perguntas 1"],
-    "answer": "Ainda não tenho uma resposta :("
-  },
-  {
-    "code": "A02",
-    "questions": ["Array de perguntas 2"],
+    "questions": ["Array de perguntas A01"],
     "answer": "Ainda não tenho uma resposta :("
   },
   {
     "code": "B01",
-    "questions": ["Array de perguntas 3"],
-    "answer": "Ainda não tenho uma resposta :("
+    "questions": [
+      "O que é o PIBIC",
+      "PIBIC",
+      "Programa Institucional de Bolsas de Iniciação Científica"
+    ],
+    "answer": "O Programa Institucional de Bolsas de Iniciação Científica - PIBIC é voltado para o desenvolvimento do pensamento científico e iniciação à pesquisa de estudantes do Ensino Superior;\n\nPara mais informações entre em contado com coordenador do curso!"
   },
   {
     "code": "B02",
-    "questions": ["Array de perguntas 4"],
-    "answer": "Ainda não tenho uma resposta :("
+    "questions": [
+      "O que é monitoria",
+      "Para que serve a monitoria?",
+      "Me explique o que é monitoria"
+    ],
+    "answer": "A monitoria visa aprimorar o ensino em cursos técnicos e de graduação, promovendo a integração entre teoria e prática. Busca estabelecer novas práticas pedagógicas para fortalecer a cooperação entre alunos e professores, proporcionando uma vivência mais próxima com as atividades técnico-didáticas do professor.\n\nPara mais informações entre em contado com coordenador do curso!"
+  },
+  {
+    "code": "B03",
+    "questions": [
+      "Tipos de monitoria",
+      "Monitoria remunerada",
+      "Monitoria não remunerada",
+      "O que é monitoria remunerada",
+      "O que é monitoria não remunerada"
+    ],
+    "answer": "No IFPI São disponibilizados dois tipos de monitoria:\n\nI - Monitoria voluntária não remunerada: refere-se à atividade de monitoria cuja participação do estudante ocorre de forma volitiva, sem recebimento de bolsa; e\nII - monitoria remunerada por bolsa: refere-se à atividade de monitoria cuja participação do estudante está condicionada ao recebimento de remuneração por meio de bolsa.\n\nPara mais informações entre em contado com coordenador do curso!"
   },
   {
     "code": "C01",
-    "questions": ["Array de perguntas 5"],
+    "questions": ["Array de perguntas C01"],
     "answer": "Ainda não tenho uma resposta :("
   },
   {
     "code": "C02",
-    "questions": ["Array de perguntas 6"],
+    "questions": ["Array de perguntas C02"],
     "answer": "Ainda não tenho uma resposta :("
   },
   {
@@ -125,6 +139,32 @@
   {
     "code": "E01",
     "questions": [
+      "O que são atividades complementares?",
+      "Para que serve as atividades complementares",
+      "O é ACC?",
+      "Para que servem as ACC"
+    ],
+    "answer": "As atividades complementares são atividades acadêmicas que visam suplementar o currículo do aluno e proporcionar um maior aprofundamento nos conteúdos estudados.  Elas são obrigatórias, ou seja, para receber o seu diploma, é preciso cumprir com a carga horária mínima determinada."
+  },
+  {
+    "code": "E02",
+    "questions": [
+      "Quantas horas de atividades complementares são obrigatórias?",
+      "Horas de atividades complementares"
+    ],
+    "answer": "Análise e desenvolvimento de sistemas:\n\nTurma de 2020, turma de 2021, e turma de 2022 são obrigatórias 120h.\nTurma de 2023 são obrigatórias 100h.\n\nAdministração:\nNecessário entrar em contato com o coordenador do curso.\n\nCiências biológicas:\nNecessário entrar em contato com o coordenador do curso."
+  },
+  {
+    "code": "E03",
+    "questions": [
+      "O que são consideradas atividades complementares?",
+      "Atividades complementares válidas"
+    ],
+    "answer": "As atividades complementares, em áreas específicas de interesse do estudante, terão como base a distribuição de ações estabelecidas a seguir:\n\nI - atividades de ensino e formação profissional;\nII - atividades de pesquisa; e \nIII - atividades outras (esportivas, culturais, filantrópicas, visitas técnicas)."
+  },
+  {
+    "code": "F01",
+    "questions": [
       "Qual o contato do diretor geral?",
       "Qual o contato do nonato?",
       "Qual o email do diretor geral?",
@@ -135,7 +175,7 @@
     "answer": "Diretoria Geral do Campus Pedro II\n\nRaimundo Nonato Alves da Silva\nE-mail: dg.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E02",
+    "code": "F02",
     "questions": [
       "Qual o contato do diretor de ensino?",
       "Qual o contato do William Melo?",
@@ -147,7 +187,7 @@
     "answer": "Diretoria de Ensino do Campus Pedro II\n\nWilliam de Souza Melo\nE-mail: dens.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E03",
+    "code": "F03",
     "questions": [
       "Qual o contato da Coordenação Pedagógica?",
       "Qual o contato da Gerlandia Melo?",
@@ -159,7 +199,7 @@
     "answer": "Coordenação Pedagógica\n\nGerlandia Maria Bezerra Melo\nE-mail: coped.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E04",
+    "code": "F04",
     "questions": [
       "Qual o contato da Coordenação de Saúde?",
       "Qual o contato da Marcia Raquel Araújo?",
@@ -171,7 +211,7 @@
     "answer": "Coordenação de Saúde\n\nMarcia Raquel Araújo de Carvalho\nE-mail: cosau.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E05",
+    "code": "F05",
     "questions": [
       "Qual o contato da Coordenação de Disciplina?",
       "Qual o contato da Naiana Teixeira?",
@@ -183,7 +223,7 @@
     "answer": "Coordenação de Disciplina\n\nNaiana Teixeira Pereira de Carvalho\nE-mail: coordisc.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E06",
+    "code": "F06",
     "questions": [
       "Qual o contato da Coordenação de Tecnologia da Informação?",
       "Qual o contato do Darlan Silva Mariano?",
@@ -195,7 +235,7 @@
     "answer": "Coordenação de Tecnologia da Informação\n\nDarlan Silva Mariano\nE-mail: coti.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E07",
+    "code": "F07",
     "questions": [
       "Qual o contato da Coordenação do Curso de Administração?",
       "Qual o contato do Coordenador do Curso de Administração?",
@@ -208,7 +248,7 @@
     "answer": "Coordenação do Curso de Bacharelado em Administração\n\nClayton Robson Moreira da Silva\nE-mail: adm.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E08",
+    "code": "F08",
     "questions": [
       "Qual o contato da Coordenação do Curso de Ciências Biológicas?",
       "Qual o contato da Coordenação do Curso de Biologia?",
@@ -224,7 +264,7 @@
     "answer": "Coordenação do Curso de Licenciatura em Ciências Biológicas\n\nEsterfania Araujo Barbosa Farias\nE-mail: cobio.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E09",
+    "code": "F09",
     "questions": [
       "Qual o contato da Coordenação do Curso de Análise e Desenvolvimento de Sistemas?",
       "Qual o contato da Coordenação do Curso de ADS?",
@@ -240,7 +280,7 @@
     "answer": "Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas\n\nPaulo de Oliveira Gomes Filho\nE-mail: cocads.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
-    "code": "E10",
+    "code": "F10",
     "questions": [
       "Qual o contato da Coordenação do NAPNE?",
       "Qual o contato da Coordenadora do NAPNE?",
