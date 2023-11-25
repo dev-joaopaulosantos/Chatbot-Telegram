@@ -1,1 +1,1 @@
-web: python pause_bot.py
+web: python bot.py
