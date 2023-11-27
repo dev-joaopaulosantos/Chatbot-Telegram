@@ -1,13 +1,24 @@
 [
   {
     "code": "A01",
-    "questions": ["Array de perguntas A01"],
-    "answer": "Ainda não tenho uma resposta :("
+    "questions": [
+      "Setor de Saúde",
+      "Responsabilidades do Setor de Saúde"
+    ],
+    "answer": "O setor de saúde do IFPI campus Pedro II é responsável por:\n\nOrganizar, executar, coordenar e controlar as atividades relativas aos serviços de assistência médica, odontológica, psicológica e de enfermagem aos servidores e discentes\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
+  },
+  {
+    "code": "A02",
+    "questions": [
+      "Atendimento no setor de saúde",
+      "Consulta no setor de saúde",
+      "Marcar colsulta"
+    ],
+    "answer": "Segue informações de como solicitar atendimento no setor de saúde:\n\n- Os atendimentos médicos e de enfermagem são de livre demanda.\n\n- Os atendimentos odontológicos e psicológicos são marcados presencialmente com os profissionais, no setor de saúde do IFPI campus Pedro II.\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
   },
   {
     "code": "B01",
     "questions": [
-      "O que é o PIBIC",
       "PIBIC",
       "Programa Institucional de Bolsas de Iniciação Científica"
     ],
@@ -16,9 +27,8 @@
   {
     "code": "B02",
     "questions": [
-      "O que é monitoria",
-      "Para que serve a monitoria?",
-      "Me explique o que é monitoria"
+      "Monitoria",
+      "O que é monitoria"
     ],
     "answer": "A monitoria visa aprimorar o ensino em cursos técnicos e de graduação, promovendo a integração entre teoria e prática. Busca estabelecer novas práticas pedagógicas para fortalecer a cooperação entre alunos e professores, proporcionando uma vivência mais próxima com as atividades técnico-didáticas do professor.\n\nPara mais informações entre em contado com coordenador do curso!"
   },
@@ -27,9 +37,7 @@
     "questions": [
       "Tipos de monitoria",
       "Monitoria remunerada",
-      "Monitoria não remunerada",
-      "O que é monitoria remunerada",
-      "O que é monitoria não remunerada"
+      "Monitoria não remunerada"
     ],
     "answer": "No IFPI São disponibilizados dois tipos de monitoria:\n\nI - Monitoria voluntária não remunerada: refere-se à atividade de monitoria cuja participação do estudante ocorre de forma volitiva, sem recebimento de bolsa; e\nII - monitoria remunerada por bolsa: refere-se à atividade de monitoria cuja participação do estudante está condicionada ao recebimento de remuneração por meio de bolsa.\n\nPara mais informações entre em contado com coordenador do curso!"
   },
@@ -46,118 +54,60 @@
   {
     "code": "D01",
     "questions": [
-      "Como obter declaração de vínculo?",
-      "Declaração de vínculo",
-      "Como ver minha declaração de vínculo?",
-      "Como baixar declaração de vínculo?",
-      "Ver declaração de vínculo online",
-      "Onde posso encontrar minha declaração de vínculo?",
-      "Instruções para obter declaração de vínculo",
-      "Como visualizar minha declaração de vínculo?",
-      "Quero saber sobre a declaração de vínculo",
-      "Preciso de orientações sobre a declaração de vínculo",
-      "O que fazer para ter acesso à declaração de vínculo?",
-      "Passos para conseguir a declaração de vínculo"
+      "Declaração de vínculo"
     ],
     "answer": "Para obter sua declaração de vínculo, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de Vínculo'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D02",
     "questions": [
-      "Como obter meu histórico Escolar?",
       "histórico escolar",
-      "histórico",
-      "ver histórico",
-      "Como ver meu histórico?",
-      "Como baixar histórico?",
-      "Ver histórico online",
-      "Onde posso encontrar meu histórico escolar?",
-      "Quero acessar meu histórico acadêmico.",
-      "É possível visualizar o histórico de notas?",
-      "Preciso do meu registro de notas.",
-      "Como consigo uma cópia do meu histórico escolar?",
-      "O que devo fazer para obter meu histórico acadêmico?",
-      "Como faço para visualizar minhas notas?"
+      "Registro de notas.",
+      "Histórico de notas."
     ],
     "answer": "Para obter seu histórico, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Histórico Parcial'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D03",
     "questions": [
-      "Como obter Declaração de carga horária integralizada?",
-      "Declaração de carga horária integralizada",
-      "Declaração de carga horária",
-      "ver declaração de carga horária integralizada",
-      "Como ver minha Declaração de carga horária?",
-      "Como baixar Declaração de carga horária?",
-      "Ver Declaração de carga horária online",
-      "Onde posso encontrar minha declaração de carga horária?",
-      "Quero acessar minha declaração de carga horária integralizada.",
-      "Preciso da minha declaração de carga horária",
-      "Como consigo uma cópia da minha Declaração de carga horária?",
-      "O que devo fazer para obter minha declaração de carga horária?",
-      "Como faço para visualizar minha declaração de carga horária?"
+      "Declaração de carga horária integralizada"
     ],
     "answer": "Para obter sua declaração de carga horária, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de carga horária integralizada'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D04",
     "questions": [
-      "Como obter declaração de matrícula?",
-      "Declaração de matrícula",
-      "ver declaração de matrícula",
-      "Como ver minha declaração de matrícula?",
-      "Como baixar declaração de matrícula?",
-      "Ver declaração de matrícula online",
-      "Onde posso encontrar minha declaração de matrícula?",
-      "Quero acessar minha declaração de matrícula.",
-      "Preciso da minha declaração de matrícula",
-      "Como consigo uma cópia da minha declaração de matrícula?",
-      "O que devo fazer para obter minha declaração de matrícula?",
-      "Como faço para visualizar minha declaração de matrícula?"
+      "Declaração de matrícula"
     ],
     "answer": "Para obter sua declaração de matrícula, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de matrícula'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D05",
     "questions": [
-      "Como obter comprovante de dados acadêmicos?",
-      "Comprovante de dados acadêmicos",
-      "ver comprovante de dados acadêmicos",
-      "Como ver meu comprovante de dados acadêmicos?",
-      "Como baixar comprovante de dados acadêmicos?",
-      "Ver comprovante de dados acadêmicos online",
-      "Onde posso encontrar meu comprovante de dados acadêmicos?",
-      "Quero acessar meu comprovante de dados acadêmicos.",
-      "Preciso do meu comprovante de dados acadêmicos",
-      "Como consigo uma cópia do meu comprovante de dados acadêmicos?",
-      "O que devo fazer para obter meu comprovante de dados acadêmicos?",
-      "Como faço para visualizar meu comprovante de dados acadêmicos?"
+      "Comprovante de dados acadêmicos"
     ],
     "answer": "Para obter sua comprovante de dados acadêmicos, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Comprovante de dados acadêmicos'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "E01",
     "questions": [
-      "O que são atividades complementares?",
-      "Para que serve as atividades complementares",
-      "O é ACC?",
-      "Para que servem as ACC"
+      "Para que servem as atividades complementares",
+      "O que é ACC?"
     ],
     "answer": "As atividades complementares são atividades acadêmicas que visam suplementar o currículo do aluno e proporcionar um maior aprofundamento nos conteúdos estudados.  Elas são obrigatórias, ou seja, para receber o seu diploma, é preciso cumprir com a carga horária mínima determinada."
   },
   {
     "code": "E02",
     "questions": [
-      "Quantas horas de atividades complementares são obrigatórias?",
-      "Horas de atividades complementares"
+      "Horas de ACC obrigatórias",
+      "Quantidades de horas obrigatórias"
     ],
     "answer": "Análise e desenvolvimento de sistemas:\n\nTurma de 2020, turma de 2021, e turma de 2022 são obrigatórias 120h.\nTurma de 2023 são obrigatórias 100h.\n\nAdministração:\nNecessário entrar em contato com o coordenador do curso.\n\nCiências biológicas:\nNecessário entrar em contato com o coordenador do curso."
   },
   {
     "code": "E03",
     "questions": [
-      "O que são consideradas atividades complementares?",
+      "O que são consideradas atividades complementares",
       "Atividades complementares válidas"
     ],
     "answer": "As atividades complementares, em áreas específicas de interesse do estudante, terão como base a distribuição de ações estabelecidas a seguir:\n\nI - atividades de ensino e formação profissional;\nII - atividades de pesquisa; e \nIII - atividades outras (esportivas, culturais, filantrópicas, visitas técnicas)."
@@ -165,35 +115,28 @@
   {
     "code": "F01",
     "questions": [
-      "Qual o contato do diretor geral?",
-      "Qual o contato do nonato?",
-      "Qual o email do diretor geral?",
-      "Qual o email do nonato?",
+      "Contato do diretor geral",
+      "CNonato Alves da Silva",
       "Email do diretor geral",
-      "Email do Nonato"
+      "Nonato"
     ],
     "answer": "Diretoria Geral do Campus Pedro II\n\nRaimundo Nonato Alves da Silva\nE-mail: dg.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F02",
     "questions": [
-      "Qual o contato do diretor de ensino?",
-      "Qual o contato do William Melo?",
-      "Qual o email do diretor de ensino?",
-      "Qual o email do William Melo?",
-      "Email do diretor de ensino",
-      "Email do William Melo"
+      "Contato do diretor de ensino",
+      "William Melo",
+      "Email do William Melo",
+      "Email do diretor de ensino"
     ],
     "answer": "Diretoria de Ensino do Campus Pedro II\n\nWilliam de Souza Melo\nE-mail: dens.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F03",
     "questions": [
-      "Qual o contato da Coordenação Pedagógica?",
-      "Qual o contato da Gerlandia Melo?",
-      "Qual o email da coordenadora pedagógica?",
-      "Qual o email da Gerlandia Melo?",
-      "Email do diretor de ensino",
+      "Contato da Coordenação Pedagógica",
+      "Contato da Gerlandia Melo",
       "Email da Coordenação Pedagógica"
     ],
     "answer": "Coordenação Pedagógica\n\nGerlandia Maria Bezerra Melo\nE-mail: coped.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
@@ -201,94 +144,62 @@
   {
     "code": "F04",
     "questions": [
-      "Qual o contato da Coordenação de Saúde?",
-      "Qual o contato da Marcia Raquel Araújo?",
-      "Qual o email da Coordenação de Saúde?",
-      "Qual o email da Marcia Raquel Araújo?",
-      "Email do setor de saúde",
-      "Email da Coordenadora de saúde"
+      "Contato da Coordenação de Saúde",
+      "Contato do setor de Saúde",
+      "Contato da Marcia Raquel Araújo"
     ],
     "answer": "Coordenação de Saúde\n\nMarcia Raquel Araújo de Carvalho\nE-mail: cosau.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F05",
     "questions": [
-      "Qual o contato da Coordenação de Disciplina?",
-      "Qual o contato da Naiana Teixeira?",
-      "Qual o email da Coordenação de Disciplina?",
-      "Qual o email da Naiana Teixeira?",
-      "Email da Coordenação de Disciplina",
-      "Email da Coordenadora de Disciplina"
+      "Contato da Coordenação de Disciplina",
+      "Contato da Naiana Teixeira",
+      "Email da Naiana Teixeira"
     ],
     "answer": "Coordenação de Disciplina\n\nNaiana Teixeira Pereira de Carvalho\nE-mail: coordisc.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F06",
     "questions": [
-      "Qual o contato da Coordenação de Tecnologia da Informação?",
-      "Qual o contato do Darlan Silva Mariano?",
-      "Qual o email da Coordenação de Tecnologia da Informação?",
-      "Qual o email do Darlan Silva Mariano?",
-      "Email da Coordenação de Tecnologia da Informação",
-      "Email do Coordenador de Tecnologia"
+      "Contato da Coordenação de Tecnologia da Informação",
+      "Contato do Darlan Silva Mariano",
+      "Email do Darlan Silva Mariano"
     ],
     "answer": "Coordenação de Tecnologia da Informação\n\nDarlan Silva Mariano\nE-mail: coti.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F07",
     "questions": [
-      "Qual o contato da Coordenação do Curso de Administração?",
-      "Qual o contato do Coordenador do Curso de Administração?",
-      "Qual o contato do Clayton Robson Moreira?",
-      "Qual o email da Coordenação do Curso de Administração?",
-      "Qual o email do Clayton Robson Moreira?",
-      "Email da Coordenação do Curso de Administração",
-      "Email do Coordenador do Curso de Administração"
+      "contato da Coordenação do Curso de Administração",
+      "Clayton Robson Moreira",
+      "email do Clayton Robson Moreira"
     ],
     "answer": "Coordenação do Curso de Bacharelado em Administração\n\nClayton Robson Moreira da Silva\nE-mail: adm.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F08",
     "questions": [
-      "Qual o contato da Coordenação do Curso de Ciências Biológicas?",
-      "Qual o contato da Coordenação do Curso de Biologia?",
-      "Qual o contato da Coordenadora do Curso de Ciências Biológicas?",
-      "Qual o contato da Coordenadora do Curso de Biologia?",
-      "Qual o contato da Esterfania Araujo?",
-      "Qual o email da Coordenação do Curso de Ciências Biológicas?",
-      "Qual o email da Coordenação do Curso de Biologia?",
-      "Qual o email da Esterfania Araujo?",
-      "Email da Coordenação do Curso de Ciências Biológicas",
-      "Email da Coordenadora do Curso de Biologia"
+      "contato da Coordenação do Curso de Ciências Biológicas",
+      "Esterfania Araujo",
+      "email da Coordenação do Curso de Ciências Biológicas"
     ],
     "answer": "Coordenação do Curso de Licenciatura em Ciências Biológicas\n\nEsterfania Araujo Barbosa Farias\nE-mail: cobio.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F09",
     "questions": [
-      "Qual o contato da Coordenação do Curso de Análise e Desenvolvimento de Sistemas?",
-      "Qual o contato da Coordenação do Curso de ADS?",
-      "Qual o contato do Coordenador do Curso de Análise e Desenvolvimento de Sistemas?",
-      "Qual o contato do Coordenador do Curso de ADS?",
-      "Qual o contato do Paulo de Oliveira Filho?",
-      "Qual o email da Coordenação do Curso de Análise e Desenvolvimento de Sistemas?",
-      "Qual o email da Coordenação do Curso de ADS?",
-      "Qual o email do Paulo de Oliveira Filho?",
-      "Email da Coordenação do Curso de Análise e Desenvolvimento de Sistemas",
-      "Email da Coordenadora do Curso de ADS"
+      "Coordenação do Curso de Análise e Desenvolvimento de Sistemas",
+      "Coordenação do Curso de ADS",
+      "Paulo de Oliveira Filho"
     ],
     "answer": "Coordenação do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas\n\nPaulo de Oliveira Gomes Filho\nE-mail: cocads.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   },
   {
     "code": "F10",
     "questions": [
-      "Qual o contato da Coordenação do NAPNE?",
-      "Qual o contato da Coordenadora do NAPNE?",
-      "Qual o contato da Marcia Rubia de Oliveira?",
-      "Qual o email da Coordenação do NAPNE?",
-      "Qual o email da Marcia Rubia de Oliveira?",
-      "Email da Coordenação do NAPNE",
-      "Email da Coordenadora do NAPNE"
+      "Coordenação do NAPNE?",
+      "Marcia Rubia de Oliveira?"
     ],
     "answer": "Coordenação do NAPNE\n\nMarcia Rubia de Oliveira Lima\nE-mail: napne.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   }

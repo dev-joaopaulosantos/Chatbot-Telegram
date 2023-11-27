@@ -53,6 +53,7 @@ def handle_submenu04(message):
 @bot.message_handler(commands=['05'])
 def handle_submenu05(message):
     submenu_05(bot, message)
+    
 
 @bot.message_handler(commands=['06'])
 def handle_submenu06(message):
