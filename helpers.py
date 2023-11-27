@@ -5,7 +5,7 @@ import pytz
 
 def get_salutation():
     # Configurar o fuso horário desejado
-    tz = pytz.timezone('America/Sao_Paulo')  # Substitua pelo seu fuso horário
+    tz = pytz.timezone('America/Sao_Paulo')
 
     # Obter a hora atual no fuso horário especificado
     current_time = datetime.datetime.now(tz)
