@@ -4,13 +4,13 @@ import telebot
 from thefuzz import fuzz
 from thefuzz import process
 
-# Import the function from the other file
+# Importa funções de outros arquivos
 from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
 from verifiers import verify, verify_menu
 from data_loader import load_data
 
 
-# Load the data using the function from the other file
+# Carrega dados da função load_data localizada em outro arquivo
 questions, answers, code_answer, codes = load_data()
 
 
