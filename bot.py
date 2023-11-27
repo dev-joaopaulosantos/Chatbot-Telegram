@@ -50,13 +50,13 @@ def handle_submenu04(message):
     submenu_04(bot, message)
 
 
-# @bot.message_handler(commands=['05'])
-# def handle_submenu05(message):
-#     submenu_05(bot, message)
+@bot.message_handler(commands=['05'])
+def handle_submenu05(message):
+    submenu_05(bot, message)
 
-# @bot.message_handler(commands=['06'])
-# def handle_submenu06(message):
-#     submenu_06(bot, message)
+@bot.message_handler(commands=['06'])
+def handle_submenu06(message):
+    submenu_06(bot, message)
 
 
 @bot.message_handler(func=lambda message: verify_menu(message, questions))
