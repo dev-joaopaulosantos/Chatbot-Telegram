@@ -65,15 +65,14 @@ Para voltar clique em -> /menu
     bot.send_message(message.chat.id, text, parse_mode='Markdown')
 
 
+
 def submenu_03(bot, message):
     text = """
 Você escolheu o tópico *Processos Acadêmicos*. selecione a opção desejada. (Clique no Item):
 
-/C01 Dispensa de disciplina.
-/C02 Cursar disciplinas pendentes.
-/C03 Ajuste de matrícula.
-/C04 Trancamento de curso.
-/C05 Reabertura de curso.
+/C01 Solicitação de prova de segunda chamada.
+/C02 Solicitação de trancamento de curso.
+/C03 Solicitação de Diploma de nível superior.
     
 Para voltar clique em -> /menu
     """

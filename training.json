@@ -41,13 +41,18 @@
   },
   {
     "code": "C01",
-    "questions": ["Array de perguntas C01"],
-    "answer": "Ainda não tenho uma resposta :("
+    "questions": ["Prova de segunda chamada"],
+    "answer": "Se ocorreu ausência em atividades avaliativas, será necessário o preenchimento do Requerimento (disponível abaixo) para abertura de processo.\n\nPara compor o processo eletrônico, o requerimento preenchido e demais documentos (se houver) deverão ser enviados para protocolo.capedii@ifpi.edu.br, em arquivo único no formato PDF\n\nPara justificativa de faltas, deve-se entrar em contato diretamente com a coordenação de seu curso\n\nRequerimento: link."
   },
   {
     "code": "C02",
-    "questions": ["Array de perguntas C02"],
-    "answer": "Ainda não tenho uma resposta :("
+    "questions": ["Trancamento de curso"],
+    "answer": "Para solicitações referente a Trancamento de Curso, informamos que será necessário o envio dos documentos abaixo. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF.\n\n- Requerimento (disponivel abaixo), preenchido e assinado;\n- Atestado de Nada Consta da Biblioteca, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nRequerimento: link."
+  },
+  {
+    "code": "C03",
+    "questions": ["Solicitação de Diploma de nível superior"],
+    "answer": "É necessário o envio dos documentos abaixo para emissão do Diploma de nível superior. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF, em arquivo único.\n\nI - Requerimento preenchido e assinado do aluno solicitando a expedição do diploma, (Disponivel abaixo);\nII - Cópia do documento de identidade civil do aluno;\nIII - Cópia da Certidão de Nascimento ou Casamento;\nIV - Comprovante de regularidade do Cadastro de Pessoa Física - CPF;\nV - Cópia do Título de Eleitor junto com o comprovante de quitação eleitoral;\nVI - Cópia do Certificado de Reservista, para homens;\nVII - Cópia do Certificado de Conclusão do Ensino Médio ou equivalente;\nVIII - Cópia do Histórico Escolar de conclusão do Ensino Médio ou equivalente;\nIX - Cópia da Ata de Colação de Grau, (CONTROLE ACADÊMICO INSERE);\nX - Declaração de regularidade no ENADE, expedida pela Coordenação do Curso;\nXI - Declaração de conclusão de estágio curricular (quando obrigatório), emitida pela Coordenação do Curso;\nXII - Guia de transferência, quando for o caso; e \nXIII - Declaração de “nada consta”, emitida pela biblioteca do campus no qual o aluno concluiu o curso, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br."
   },
   {
     "code": "D01",
