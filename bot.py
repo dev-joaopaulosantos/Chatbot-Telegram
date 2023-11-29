@@ -5,9 +5,9 @@ from thefuzz import fuzz
 from thefuzz import process
 
 # Importa funções de outros arquivos
-# from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
-# from verifiers import verify, verify_menu
-# from data_loader import load_data
+from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
+from verifiers import verify, verify_menu
+from data_loader import load_data
 
 
 # Carrega dados da função load_data localizada em outro arquivo
@@ -16,6 +16,13 @@ questions, answers, code_answer, codes = load_data()
 
 load_dotenv()
 bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
+
+
+@bot.message_handler(commands=['requerimento'])
+def send_document(message):
+    doc = open('RequerimentoNivelSuperiorPos.docx', 'rb')
+    bot.send_document(message.chat.id, doc)
+    doc.close()
 
 
 def handle_sub_option(message, option_code):
@@ -62,13 +69,6 @@ def handle_submenu06(message):
 @bot.message_handler(func=lambda message: verify_menu(message, questions))
 def handle_menu(message):
     menu(bot, message)
-
-
-@bot.message_handler(commands=['documento'])
-def send_document(message):
-    doc = open('RequerimentoNivelSuperiorPos.doc', 'rb')
-    bot.send_document(message.chat.id, doc)
-    doc.close()
 
 
 @bot.message_handler(func=lambda message: verify(message, questions))

@@ -1,17 +1,15 @@
 [
   {
     "code": "A01",
-    "questions": [
-      "Setor de Saúde",
-      "Responsabilidades do Setor de Saúde"
-    ],
+    "questions": ["Responsabilidades do Setor de Saúde"],
     "answer": "O setor de saúde do IFPI campus Pedro II é responsável por:\n\nOrganizar, executar, coordenar e controlar as atividades relativas aos serviços de assistência médica, odontológica, psicológica e de enfermagem aos servidores e discentes\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
   },
   {
     "code": "A02",
     "questions": [
       "Atendimento no setor de saúde",
-      "Consulta no setor de saúde"
+      "Consulta no setor de saúde",
+      "Setor de saúde"
     ],
     "answer": "Segue informações de como solicitar atendimento no setor de saúde:\n\n- Os atendimentos médicos e de enfermagem são de livre demanda.\n\n- Os atendimentos odontológicos e psicológicos são marcados presencialmente com os profissionais, no setor de saúde do IFPI campus Pedro II.\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
   },
@@ -21,74 +19,66 @@
       "PIBIC",
       "Programa Institucional de Bolsas de Iniciação Científica"
     ],
-    "answer": "O Programa Institucional de Bolsas de Iniciação Científica - PIBIC é voltado para o desenvolvimento do pensamento científico e iniciação à pesquisa de estudantes do Ensino Superior;\n\nPara mais informações entre em contado com coordenador do curso!"
+    "answer": "O Programa Institucional de Bolsas de Iniciação Científica - PIBIC é voltado para o desenvolvimento do pensamento científico e iniciação à pesquisa de estudantes do Ensino Superior;\n\nPara mais informações entre em contado com  a coordenação do seu curso!"
   },
   {
     "code": "B02",
-    "questions": [
-      "Monitoria",
-      "O que é monitoria"
-    ],
-    "answer": "A monitoria visa aprimorar o ensino em cursos técnicos e de graduação, promovendo a integração entre teoria e prática. Busca estabelecer novas práticas pedagógicas para fortalecer a cooperação entre alunos e professores, proporcionando uma vivência mais próxima com as atividades técnico-didáticas do professor.\n\nPara mais informações entre em contado com coordenador do curso!"
+    "questions": ["Monitoria", "O que é monitoria", "Monitoria não remunerada"],
+    "answer": "A monitoria visa aprimorar o ensino em cursos técnicos e de graduação, promovendo a integração entre teoria e prática. Busca estabelecer novas práticas pedagógicas para fortalecer a cooperação entre alunos e professores, proporcionando uma vivência mais próxima com as atividades técnico-didáticas do professor.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
     "code": "B03",
-    "questions": [
-      "Tipos de monitoria",
-      "Monitoria remunerada"
-    ],
-    "answer": "No IFPI São disponibilizados dois tipos de monitoria:\n\nI - Monitoria voluntária não remunerada: refere-se à atividade de monitoria cuja participação do estudante ocorre de forma volitiva, sem recebimento de bolsa; e\nII - monitoria remunerada por bolsa: refere-se à atividade de monitoria cuja participação do estudante está condicionada ao recebimento de remuneração por meio de bolsa.\n\nPara mais informações entre em contado com coordenador do curso!"
+    "questions": ["Tipos de monitoria", "Monitoria remunerada"],
+    "answer": "No IFPI São disponibilizados dois tipos de monitoria:\n\nI - Monitoria voluntária não remunerada: refere-se à atividade de monitoria cuja participação do estudante ocorre de forma volitiva, sem recebimento de bolsa; e\nII - monitoria remunerada por bolsa: refere-se à atividade de monitoria cuja participação do estudante está condicionada ao recebimento de remuneração por meio de bolsa.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
     "code": "C01",
-    "questions": ["Prova de segunda chamada"],
-    "answer": "Se ocorreu ausência em atividades avaliativas, será necessário o preenchimento do Requerimento (disponível abaixo) para abertura de processo.\n\nPara compor o processo eletrônico, o requerimento preenchido e demais documentos (se houver) deverão ser enviados para protocolo.capedii@ifpi.edu.br, em arquivo único no formato PDF\n\nPara justificativa de faltas, deve-se entrar em contato diretamente com a coordenação de seu curso\n\nRequerimento: link."
+    "questions": ["Prova de segunda chamada", "Solicitar segunda chamada"],
+    "answer": "Se ocorreu ausência em atividades avaliativas, será necessário o preenchimento do Requerimento (disponível abaixo) para abertura de processo.\n\nPara compor o processo eletrônico, o requerimento preenchido e demais documentos (se houver) deverão ser enviados para protocolo.capedii@ifpi.edu.br, em arquivo único no formato PDF\n\nPara justificativa de faltas, deve-se entrar em contato diretamente com a coordenação de seu curso\n\nBaixar requerimento -> /requerimento."
   },
   {
     "code": "C02",
-    "questions": ["Trancamento de curso"],
-    "answer": "Para solicitações referente a Trancamento de Curso, informamos que será necessário o envio dos documentos abaixo. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF.\n\n- Requerimento (disponivel abaixo), preenchido e assinado;\n- Atestado de Nada Consta da Biblioteca, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nRequerimento: link."
+    "questions": ["Trancamento de curso", "Solicitar trancamento de curso"],
+    "answer": "Para solicitações referente a Trancamento de Curso, é necessário o envio dos documentos abaixo. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF.\n\n- Requerimento (disponivel abaixo), preenchido e assinado;\n- Atestado de Nada Consta da Biblioteca, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nBaixar requerimento -> /requerimento."
   },
   {
     "code": "C03",
-    "questions": ["Solicitação de Diploma de nível superior"],
-    "answer": "É necessário o envio dos documentos abaixo para emissão do Diploma de nível superior. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF, em arquivo único.\n\nI - Requerimento preenchido e assinado do aluno solicitando a expedição do diploma, (Disponivel abaixo);\nII - Cópia do documento de identidade civil do aluno;\nIII - Cópia da Certidão de Nascimento ou Casamento;\nIV - Comprovante de regularidade do Cadastro de Pessoa Física - CPF;\nV - Cópia do Título de Eleitor junto com o comprovante de quitação eleitoral;\nVI - Cópia do Certificado de Reservista, para homens;\nVII - Cópia do Certificado de Conclusão do Ensino Médio ou equivalente;\nVIII - Cópia do Histórico Escolar de conclusão do Ensino Médio ou equivalente;\nIX - Cópia da Ata de Colação de Grau, (CONTROLE ACADÊMICO INSERE);\nX - Declaração de regularidade no ENADE, expedida pela Coordenação do Curso;\nXI - Declaração de conclusão de estágio curricular (quando obrigatório), emitida pela Coordenação do Curso;\nXII - Guia de transferência, quando for o caso; e \nXIII - Declaração de “nada consta”, emitida pela biblioteca do campus no qual o aluno concluiu o curso, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br."
+    "questions": [
+      "Solicitação de Diploma de nível superior",
+      "Diploma de nível superior"
+    ],
+    "answer": "É necessário o envio dos documentos abaixo para emissão do Diploma de nível superior. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF, em arquivo único.\n\nI - Requerimento preenchido e assinado do aluno solicitando a expedição do diploma, (Disponivel abaixo);\nII - Cópia do documento de identidade civil do aluno;\nIII - Cópia da Certidão de Nascimento ou Casamento;\nIV - Comprovante de regularidade do Cadastro de Pessoa Física - CPF;\nV - Cópia do Título de Eleitor junto com o comprovante de quitação eleitoral;\nVI - Cópia do Certificado de Reservista, para homens;\nVII - Cópia do Certificado de Conclusão do Ensino Médio ou equivalente;\nVIII - Cópia do Histórico Escolar de conclusão do Ensino Médio ou equivalente;\nIX - Cópia da Ata de Colação de Grau, (CONTROLE ACADÊMICO INSERE);\nX - Declaração de regularidade no ENADE, expedida pela Coordenação do Curso;\nXI - Declaração de conclusão de estágio curricular (quando obrigatório), emitida pela Coordenação do Curso;\nXII - Guia de transferência, quando for o caso; e \nXIII - Declaração de “nada consta”, emitida pela biblioteca do campus no qual o aluno concluiu o curso, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nBaixar requerimento -> /requerimento"
   },
   {
     "code": "D01",
-    "questions": [
-      "Declaração de vínculo"
-    ],
+    "questions": ["Declaração de vínculo"],
     "answer": "Para obter sua declaração de vínculo, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de Vínculo'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D02",
     "questions": [
       "histórico escolar",
-      "Registro de notas.",
-      "Histórico de notas."
+      "Histórico de notas",
+      "Registro de notas"
     ],
     "answer": "Para obter seu histórico, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Histórico Parcial'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D03",
     "questions": [
-      "Declaração de carga horária integralizada"
+      "Declaração de carga horária integralizada",
+      "Registro de carga horária"
     ],
     "answer": "Para obter sua declaração de carga horária, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de carga horária integralizada'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D04",
-    "questions": [
-      "Declaração de matrícula"
-    ],
+    "questions": ["Declaração de matrícula"],
     "answer": "Para obter sua declaração de matrícula, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de matrícula'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D05",
-    "questions": [
-      "Comprovante de dados acadêmicos"
-    ],
+    "questions": ["Comprovante de dados acadêmicos"],
     "answer": "Para obter sua comprovante de dados acadêmicos, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Comprovante de dados acadêmicos'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
@@ -105,7 +95,7 @@
       "Horas de ACC obrigatórias",
       "Quantidades de horas obrigatórias"
     ],
-    "answer": "Análise e desenvolvimento de sistemas:\n\nTurma de 2020, turma de 2021, e turma de 2022 são obrigatórias 120h.\nTurma de 2023 são obrigatórias 100h.\n\nAdministração:\nNecessário entrar em contato com o coordenador do curso.\n\nCiências biológicas:\nNecessário entrar em contato com o coordenador do curso."
+    "answer": "A validação das cargas horárias é feita por meio do SUAP-Edu, registrando as informações na aba (Atividades Complementares), de acordo com o que é solicitado, salvando a solicitação ao final.\n\nA solicitação para validar as Atividades Complementares deverá ser realizada de acordo com as datas previstas no calendário acadêmico.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
     "code": "E03",
@@ -200,10 +190,7 @@
   },
   {
     "code": "F10",
-    "questions": [
-      "Coordenação do NAPNE?",
-      "Marcia Rubia de Oliveira?"
-    ],
+    "questions": ["Coordenação do NAPNE?", "Marcia Rubia de Oliveira?"],
     "answer": "Coordenação do NAPNE\n\nMarcia Rubia de Oliveira Lima\nE-mail: napne.capedii@ifpi.edu.br.\n\nEntre em contato em horário comercial."
   }
 ]

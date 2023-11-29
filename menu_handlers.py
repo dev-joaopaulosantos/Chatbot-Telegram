@@ -25,7 +25,7 @@ Fique à vontade para explorar e tirar suas dúvidas. Estou aqui para ajudar!
         first_time_users.add(message.from_user.id)
 
     text = f"""
-{salutation}, {message.from_user.first_name}! *Escolha uma opção para continuar* (Clique no item):
+{salutation}, {message.from_user.first_name}! *Escolha um tópico para continuar* (Clique no item):
 
 /01 Setor de Saúde.
 /02 Programas Estudantis.
@@ -100,7 +100,7 @@ def submenu_05(bot, message):
 Você escolheu o tópico *Atividades Complementares*. selecione a opção desejada. (Clique no Item):
 
 /E01 Para que servem as atividades complementares.
-/E02 Quantidades de horas obrigatórias.
+/E02 Validação das cargas horárias.
 /E03 O que são consideradas atividades complementares.
     
 Para voltar clique em -> /menu
