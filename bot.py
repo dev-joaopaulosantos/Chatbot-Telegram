@@ -5,9 +5,9 @@ from thefuzz import fuzz
 from thefuzz import process
 
 # Importa funções de outros arquivos
-# from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
-# from verifiers import verify, verify_menu
-# from data_loader import load_data
+from menu_handlers import submenu_01, submenu_02,submenu_03,submenu_04, submenu_05, submenu_06, menu
+from verifiers import verify, verify_menu
+from data_loader import load_data
 
 
 # Carrega dados da função load_data localizada em outro arquivo
@@ -20,8 +20,9 @@ bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
 
 @bot.message_handler(commands=['requerimento'])
 def send_document(message):
-    doc = open('RequerimentoNivelSuperiorPos.docx', 'rb')
+    doc = open('Requerimento.docx', 'rb')
     bot.send_document(message.chat.id, doc)
+    bot.send_message(message.chat.id, "Para voltar clique em -> /menu.")
     doc.close()
 
 
@@ -61,6 +62,7 @@ def handle_submenu04(message):
 def handle_submenu05(message):
     submenu_05(bot, message)
 
+
 @bot.message_handler(commands=['06'])
 def handle_submenu06(message):
     submenu_06(bot, message)
@@ -77,7 +79,7 @@ def respond(message):
     best_match = process.extractOne(question, questions)
     response = answers[best_match[0]]
     response += "\n\nPara voltar clique em -> /menu."  # Adicionando texto padrão ao final da resposta
-    bot.reply_to(message, response)
+    bot.reply_to(message, response, parse_mode='Markdown')
 
-
+ 
 bot.polling() 

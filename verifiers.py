@@ -18,3 +18,11 @@ def verify_menu(message, questions):
         print(best_match)
         return True
     return False
+
+
+def verify_first_message(message, first_messages):
+    user_message = message.text.lower().strip()
+    first_messages = [msg.lower().strip() for msg in first_messages]
+    if user_message in first_messages:
+        return True
+    return False

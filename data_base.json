@@ -1,7 +1,16 @@
 [
   {
+    "code": "",
+    "questions": ["Setor de saúde"],
+    "answer": "Você escolheu o tópico *Setor de Saúde*. selecione a opção desejada. (Clique no Item):\n\n/A01 Sobre o setor de saúde.\n/A02 Como marcar uma consulta ou solicitar atendimento."
+  },
+  {
     "code": "A01",
-    "questions": ["Responsabilidades do Setor de Saúde"],
+    "questions": [
+      "Responsabilidades do Setor de Saúde",
+      "Informações sobre o setor de saúde",
+      "Sobre o setor de saúde"
+    ],
     "answer": "O setor de saúde do IFPI campus Pedro II é responsável por:\n\nOrganizar, executar, coordenar e controlar as atividades relativas aos serviços de assistência médica, odontológica, psicológica e de enfermagem aos servidores e discentes\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
   },
   {
@@ -9,9 +18,17 @@
     "questions": [
       "Atendimento no setor de saúde",
       "Consulta no setor de saúde",
-      "Setor de saúde"
+      "Marcar consulta",
+      "Marcar atendimento",
+      "solicitar atendimento",
+      "Como marcar uma consulta"
     ],
     "answer": "Segue informações de como solicitar atendimento no setor de saúde:\n\n- Os atendimentos médicos e de enfermagem são de livre demanda.\n\n- Os atendimentos odontológicos e psicológicos são marcados presencialmente com os profissionais, no setor de saúde do IFPI campus Pedro II.\n\nPara obter mais informações, entre em contato com a coordenação do setor de saúde: cosau.capedii@ifpi.edu.br"
+  },
+  {
+    "code": "",
+    "questions": ["Programas Estudantis"],
+    "answer": "Você escolheu o tópico *Programas Estudantis*. selecione a opção desejada. (Clique no Item):\n\n/B01 PIBIC - Programa Institucional de Bolsas de Iniciação Científica.\n/B02 Monitoria.\n/B03 Tipos Monitoria."
   },
   {
     "code": "B01",
@@ -23,7 +40,7 @@
   },
   {
     "code": "B02",
-    "questions": ["Monitoria", "O que é monitoria", "Monitoria não remunerada"],
+    "questions": ["Monitoria", "O que é monitoria"],
     "answer": "A monitoria visa aprimorar o ensino em cursos técnicos e de graduação, promovendo a integração entre teoria e prática. Busca estabelecer novas práticas pedagógicas para fortalecer a cooperação entre alunos e professores, proporcionando uma vivência mais próxima com as atividades técnico-didáticas do professor.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
@@ -32,22 +49,42 @@
     "answer": "No IFPI São disponibilizados dois tipos de monitoria:\n\nI - Monitoria voluntária não remunerada: refere-se à atividade de monitoria cuja participação do estudante ocorre de forma volitiva, sem recebimento de bolsa; e\nII - monitoria remunerada por bolsa: refere-se à atividade de monitoria cuja participação do estudante está condicionada ao recebimento de remuneração por meio de bolsa.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
+    "code": "",
+    "questions": ["Processos Acadêmicos"],
+    "answer": "Você escolheu o tópico *Processos Acadêmicos*. selecione a opção desejada. (Clique no Item):\n\n/C01 Solicitação de prova de segunda chamada.\n/C02 Solicitação de trancamento de curso.\n/C03 Solicitação de Diploma de nível superior.\n/C04 Baixar requerimento."
+  },
+  {
     "code": "C01",
     "questions": ["Prova de segunda chamada", "Solicitar segunda chamada"],
     "answer": "Se ocorreu ausência em atividades avaliativas, será necessário o preenchimento do Requerimento (disponível abaixo) para abertura de processo.\n\nPara compor o processo eletrônico, o requerimento preenchido e demais documentos (se houver) deverão ser enviados para protocolo.capedii@ifpi.edu.br, em arquivo único no formato PDF\n\nPara justificativa de faltas, deve-se entrar em contato diretamente com a coordenação de seu curso\n\nBaixar requerimento -> /requerimento."
   },
   {
     "code": "C02",
-    "questions": ["Trancamento de curso", "Solicitar trancamento de curso"],
+    "questions": [
+      "Trancamento de curso",
+      "Solicitar trancamento de curso",
+      "Trancar curso"
+    ],
     "answer": "Para solicitações referente a Trancamento de Curso, é necessário o envio dos documentos abaixo. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF.\n\n- Requerimento (disponivel abaixo), preenchido e assinado;\n- Atestado de Nada Consta da Biblioteca, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nBaixar requerimento -> /requerimento."
   },
   {
     "code": "C03",
     "questions": [
       "Solicitação de Diploma de nível superior",
-      "Diploma de nível superior"
+      "Diploma de nível superior",
+      "Diploma"
     ],
     "answer": "É necessário o envio dos documentos abaixo para emissão do Diploma de nível superior. Para compor o processo eletrônico esses documentos deverão ser enviados para protocolo.capedii@ifpi.edu.br no formato PDF, em arquivo único.\n\nI - Requerimento preenchido e assinado do aluno solicitando a expedição do diploma, (Disponivel abaixo);\nII - Cópia do documento de identidade civil do aluno;\nIII - Cópia da Certidão de Nascimento ou Casamento;\nIV - Comprovante de regularidade do Cadastro de Pessoa Física - CPF;\nV - Cópia do Título de Eleitor junto com o comprovante de quitação eleitoral;\nVI - Cópia do Certificado de Reservista, para homens;\nVII - Cópia do Certificado de Conclusão do Ensino Médio ou equivalente;\nVIII - Cópia do Histórico Escolar de conclusão do Ensino Médio ou equivalente;\nIX - Cópia da Ata de Colação de Grau, (CONTROLE ACADÊMICO INSERE);\nX - Declaração de regularidade no ENADE, expedida pela Coordenação do Curso;\nXI - Declaração de conclusão de estágio curricular (quando obrigatório), emitida pela Coordenação do Curso;\nXII - Guia de transferência, quando for o caso; e \nXIII - Declaração de “nada consta”, emitida pela biblioteca do campus no qual o aluno concluiu o curso, solicitar para o e-mail biblioteca.capedii@ifpi.edu.br.\n\nBaixar requerimento -> /requerimento"
+  },
+  {
+    "code": "C04",
+    "questions": ["Baixar requerimento", "Requerimento"],
+    "answer": "Para baixar o requerimento, clique na opção abaixo\n\nBaixar requerimento -> /requerimento"
+  },
+  {
+    "code": "",
+    "questions": ["Sistema Unificado de Administração Pública", "SUAP"],
+    "answer": "Você escolheu o tópico *SUAP*. selecione a opção desejada. (Clique no Item):\n\n/D01 Declaração de vínculo.\n/D02 Histórico.\n/D03 Declaração de carga horária integralizada.\n/D04 Declaração de matrícula.\n/D05 Comprovante de dados acadêmicos."
   },
   {
     "code": "D01",
@@ -57,7 +94,8 @@
   {
     "code": "D02",
     "questions": [
-      "histórico escolar",
+      "Histórico",
+      "Histórico escolar",
       "Histórico de notas",
       "Registro de notas"
     ],
@@ -73,27 +111,39 @@
   },
   {
     "code": "D04",
-    "questions": ["Declaração de matrícula"],
+    "questions": [
+      "Declaração de matrícula",
+      "Comprovante de matrícula",
+      "Certificado de matrícula"
+    ],
     "answer": "Para obter sua declaração de matrícula, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Declaração de matrícula'.\n\nVocê terá a opção de visualizar ou baixar o documento."
   },
   {
     "code": "D05",
-    "questions": ["Comprovante de dados acadêmicos"],
+    "questions": ["Comprovante de dados acadêmicos", "Dados acadêmicos"],
     "answer": "Para obter sua comprovante de dados acadêmicos, siga os passos abaixo:\n\n1. Faça login na sua conta em (https://suap.ifpi.edu.br/).\n2. Clique no seu perfil.\n3. Selecione 'Documentos'.\n4. Escolha 'Comprovante de dados acadêmicos'.\n\nVocê terá a opção de visualizar ou baixar o documento."
+  },
+  {
+    "code": "",
+    "questions": ["Atividades Complementares", "ACC"],
+    "answer": "Você escolheu o tópico *Atividades Complementares*. selecione a opção desejada. (Clique no Item):\n\n/E01 Sobre as atividades complementares.\n/E02 Validação das cargas horárias.\n/E03 O que são consideradas atividades complementares."
   },
   {
     "code": "E01",
     "questions": [
       "Para que servem as atividades complementares",
-      "O que é ACC?"
+      "O que é ACC?",
+      "Sobre atividades complementares"
     ],
-    "answer": "As atividades complementares são atividades acadêmicas que visam suplementar o currículo do aluno e proporcionar um maior aprofundamento nos conteúdos estudados.  Elas são obrigatórias, ou seja, para receber o seu diploma, é preciso cumprir com a carga horária mínima determinada."
+    "answer": "As atividades complementares são atividades acadêmicas que visam suplementar o currículo do aluno e proporcionar um maior aprofundamento nos conteúdos estudados.\n\nElas são obrigatórias, ou seja, para receber o seu diploma, é preciso cumprir com a carga horária mínima determinada.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
   {
     "code": "E02",
     "questions": [
-      "Horas de ACC obrigatórias",
-      "Quantidades de horas obrigatórias"
+      "Cadastrar ACC",
+      "Cadastrar atividades complementares",
+      "Validar cargas horárias",
+      "Cargas horarias de atividades complementares"
     ],
     "answer": "A validação das cargas horárias é feita por meio do SUAP-Edu, registrando as informações na aba (Atividades Complementares), de acordo com o que é solicitado, salvando a solicitação ao final.\n\nA solicitação para validar as Atividades Complementares deverá ser realizada de acordo com as datas previstas no calendário acadêmico.\n\nPara mais informações entre em contado com a coordenação do seu curso!"
   },
@@ -103,13 +153,18 @@
       "O que são consideradas atividades complementares",
       "Atividades complementares válidas"
     ],
-    "answer": "As atividades complementares, em áreas específicas de interesse do estudante, terão como base a distribuição de ações estabelecidas a seguir:\n\nI - atividades de ensino e formação profissional;\nII - atividades de pesquisa; e \nIII - atividades outras (esportivas, culturais, filantrópicas, visitas técnicas)."
+    "answer": "As atividades complementares, em áreas específicas de interesse do estudante, terão como base a distribuição de ações estabelecidas a seguir:\n\nI - atividades de ensino e formação profissional;\nII - atividades de pesquisa; e \nIII - atividades outras (esportivas, culturais, filantrópicas, visitas técnicas).\n\nPara mais informações entre em contado com a coordenação do seu curso!"
+  },
+  {
+    "code": "",
+    "questions": ["Contatos da Administração", "Contatos"],
+    "answer": "Você escolheu o tópico *Contatos da Administração*. selecione a opção desejada. (Clique no Item):\n\n/F01 Diretoria Geral.\n/F02 Diretoria de Ensino.\n/F03 Coordenação Pedagógica.\n/F04 Coordenação de Saúde.\n/F05 Coordenação de Disciplina.\n/F06 Coordenação de Tecnologia da Informação.\n/F07 Coordenação do Curso de Administração.\n/F08 Coordenação do Curso de Ciências Biológicas.\n/F09 Coordenação do Curso de ADS.\n/F10 Coordenação do NAPNE."
   },
   {
     "code": "F01",
     "questions": [
       "Contato do diretor geral",
-      "CNonato Alves da Silva",
+      "Nonato Alves da Silva",
       "Email do diretor geral",
       "Nonato"
     ],
