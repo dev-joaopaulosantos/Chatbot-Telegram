@@ -12,7 +12,7 @@ def menu(bot, message):
     first_name = message.from_user.first_name or ""
     last_name = message.from_user.last_name or ""
 
-    wellcome_text = f"{salutation}, {first_name} {last_name} \nBem-vindo ao Chatbot Acadêmico do IFPI Campus Pedro II! 🎓🤖\n\nEstou aqui para te auxiliar com informações acadêmicas. Sinta-se à vontade para explorar e esclarecer suas dúvidas."
+    wellcome_text = f"{salutation}, {first_name} {last_name}.\nBem-vindo ao Chatbot Acadêmico do IFPI Campus Pedro II! 🎓🤖\n\nEstou aqui para te auxiliar com informações acadêmicas. Sinta-se à vontade para explorar e esclarecer suas dúvidas."
 
     if check_conditions(message) and message.from_user.id in first_time_users:
         bot.reply_to(message, "Desculpe, não encontrei a informação solicitada.\n\nVamos tentar novamente. Por favor, selecione uma opção do menu para continuar.")
