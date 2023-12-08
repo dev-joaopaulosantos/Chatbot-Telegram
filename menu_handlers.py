@@ -59,7 +59,7 @@ Você escolheu o tópico *Programas Estudantis*. selecione a opção desejada. (
 
 /B01 Sobre o PIBIC - Programa Institucional de Bolsas de Iniciação Científica.
 /B02 Sobre a Monitoria.
-/B03 Tipos Monitoria.
+/B03 Tipos de Monitoria.
     
 Para voltar clique em -> /menu
     """
