@@ -57,8 +57,8 @@ def submenu_02(bot, message):
     text = """
 Você escolheu o tópico *Programas Estudantis*. selecione a opção desejada. (Clique no Item):
 
-/B01 PIBIC - Programa Institucional de Bolsas de Iniciação Científica.
-/B02 Monitoria.
+/B01 Sobre o PIBIC - Programa Institucional de Bolsas de Iniciação Científica.
+/B02 Sobre a Monitoria.
 /B03 Tipos Monitoria.
     
 Para voltar clique em -> /menu
