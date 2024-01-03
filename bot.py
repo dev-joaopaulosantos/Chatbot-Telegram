@@ -15,7 +15,7 @@ questions, answers, code_answer, codes = load_data()
 
 
 load_dotenv()
-# bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
+bot = telebot.TeleBot(os.getenv('TELEGRAM_API_KEY'))
 
 
 @bot.message_handler(commands=['requerimento'])
